@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@100;500;900&display=swap');
+
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif; /* Sets the font for the entire navbar */
+  width: 100%; /* Ensures the navbar takes the full width */
+  box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; /* Centers the list items if needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distributes space between and around items */
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Removes margin from the last item */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 500; /* Makes the font a bit bolder */
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400; /* Regular font weight for dropdown items */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown {
+  background-color: #333;
+  color: white;
+}
+
+.dropdown:hover {
+  background-color: #555;
+}
+
+.dropdown > a, .dropdown > a:visited {
+  color: white;
+}

@@ -1,0 +1,58 @@
+.academic-work {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+    text-align: center; /* Center aligns the text */
+    background-color: #f7f7f7; /* Light grey background, change as needed */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.academic-work h1 {
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 30px; /* Adds space between the heading and the buttons */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row; /* Aligns buttons horizontally */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 20px; /* Space between each button */
+    flex-wrap: wrap; /* Allows buttons to wrap onto the next line on smaller screens */
+}
+
+.button-link {
+    text-decoration: none; /* Removes underline from links */
+}
+
+.button-link button {
+    font-size: 16px; /* Adjust size as needed */
+    color: white; /* Text color */
+    background-color: #4CAF50; /* Change to your preferred button color */
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    padding: 15px 30px; /* Adjust padding as needed for size */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button-link button:hover {
+    background-color: #45a049; /* Darkens the button when hovering */
+}
+
+/* Responsive design: Allow buttons to fill more space on smaller screens */
+@media (max-width: 768px) {
+    .academic-work {
+        width: 90%; /* Makes the container wider on smaller screens */
+        margin: 20px auto; /* Keeps it centered */
+    }
+    
+    .buttons {
+        flex-direction: row; /* Ensures buttons stay in a line */
+        gap: 10px; /* Reduces space between buttons for smaller screens */
+    }
+
+    .button-link button {
+        padding: 10px 20px; /* Adjusts padding for smaller screens */
+    }
+}
