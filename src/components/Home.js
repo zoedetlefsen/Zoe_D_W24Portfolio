@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../assets/styles/Home.css'; // Assuming you're using a CSS file named Home.css
-
+import '../assets/styles/Home.css'; 
 function Home() {
     return (
       <div className="home-container">

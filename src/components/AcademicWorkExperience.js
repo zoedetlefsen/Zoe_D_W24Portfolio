@@ -23,6 +23,30 @@ const AcademicWorkExperience = () => {
                     <button>GBC Spring Social - Springboot - Click to Download</button>
                 </a>
             </div>
+
+            <div className="video-container">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/nQqDhmNmCkY"
+                    title="Machine Learning Assignment 2"
+                    frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div className='video-container'>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/92Nrpp0U2uI"
+                    title="Machine Learning Assignment 1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
         </div>
     );
 };
