@@ -6,11 +6,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <Link to="/privacy-policy">Privacy Policy</Link>
-        <Link to="/terms-of-service">Terms of Service</Link>
+        <Link to="/contact">Contact Me</Link>
       </div>
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Your Company Name. All rights reserved.
+        © {new Date().getFullYear()} Zoe Detlefsen. All rights reserved.
       </div>
     </footer>
   );
